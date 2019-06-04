@@ -102,3 +102,8 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+1
+2
+.*.ipynb
+.*.xml
