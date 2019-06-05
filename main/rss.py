@@ -12,7 +12,7 @@ rss = [("ScienceDirect Publication: Biotechnology Advances", "http://rss.science
        ("ScienceDirect Publication: Biology of Blood and Marrow Transplantation", "http://rss.sciencedirect.com/publication/science/10838791"),
        ("ScienceDirect Publication: Cancer Treatment Reviews", "http://rss.sciencedirect.com/publication/science/03057372"),
        ("ScienceDirect Publication: Neuropharmacology", "http://rss.sciencedirect.com/publication/science/00283908"),
-       ("ScienceDirect Publication: European Journal of Medicinal Chemistry"),
+       ("ScienceDirect Publication: European Journal of Medicinal Chemistry", "https://www.journals.elsevier.com/european-journal-of-medicinal-chemistry/rss"),
        ("Antimicrobial Agents and Chemotherapy", "https://aac.asm.org/rss/current.xml"),
        ("Journal of Antimicrobial Chemotherapy", "https://academic.oup.com/rss/site_5301/3167.xml"),
        ("PLOS Biology: New Articles", "http://biology.plosjournals.org/perlserv/?request=get-rss&issn=1545-7885&type=new-articles", "1544-9173"),
