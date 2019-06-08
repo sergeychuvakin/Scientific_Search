@@ -1,0 +1,35 @@
+2019-06-08 16:54:33,142 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2019-06-08 16:54:33,143 : INFO : built Dictionary(12 unique tokens: ['computer', 'human', 'interface', 'response', 'survey']...) from 9 documents (total 29 corpus positions)
+2019-06-08 16:55:34,982 : INFO : saving Dictionary object under deerwester.dict, separately None
+2019-06-08 16:55:34,983 : WARNING : this function is deprecated, use smart_open.open instead
+2019-06-08 16:55:34,984 : INFO : saved deerwester.dict
+2019-06-08 16:55:34,985 : INFO : storing corpus in Matrix Market format to deerwester.mm
+2019-06-08 16:55:34,985 : WARNING : this function is deprecated, use smart_open.open instead
+2019-06-08 16:55:34,987 : INFO : saving sparse matrix to deerwester.mm
+2019-06-08 16:55:34,987 : INFO : PROGRESS: saving document #0
+2019-06-08 16:55:34,988 : INFO : saved 9x12 matrix, density=25.926% (28/108)
+2019-06-08 16:55:34,991 : INFO : saving MmCorpus index to deerwester.mm.index
+2019-06-08 16:55:34,991 : WARNING : this function is deprecated, use smart_open.open instead
+2019-06-08 16:56:10,536 : INFO : collecting document frequencies
+2019-06-08 16:56:10,536 : INFO : PROGRESS: processing document #0
+2019-06-08 16:56:10,536 : INFO : calculating IDF weights for 9 documents and 12 features (28 matrix non-zeros)
+2019-06-08 16:56:19,603 : INFO : using serial LSI version on this node
+2019-06-08 16:56:19,603 : INFO : updating model with new documents
+2019-06-08 16:56:19,605 : INFO : preparing a new chunk of documents
+2019-06-08 16:56:19,606 : INFO : using 100 extra samples and 2 power iterations
+2019-06-08 16:56:19,606 : INFO : 1st phase: constructing (12, 102) action matrix
+2019-06-08 16:56:19,609 : INFO : orthonormalizing (12, 102) action matrix
+2019-06-08 16:56:19,618 : INFO : 2nd phase: running dense svd on (12, 9) matrix
+2019-06-08 16:56:19,622 : INFO : computing the final decomposition
+2019-06-08 16:56:19,623 : INFO : keeping 2 factors (discarding 47.565% of energy spectrum)
+2019-06-08 16:56:19,624 : INFO : processed documents up to #9
+2019-06-08 16:56:19,626 : INFO : topic #0(1.594): 0.703*"trees" + 0.538*"graph" + 0.402*"minors" + 0.187*"survey" + 0.061*"system" + 0.060*"time" + 0.060*"response" + 0.058*"user" + 0.049*"computer" + 0.035*"interface"
+2019-06-08 16:56:19,627 : INFO : topic #1(1.476): 0.460*"system" + 0.373*"user" + 0.332*"eps" + 0.328*"interface" + 0.320*"time" + 0.320*"response" + 0.293*"computer" + 0.280*"human" + 0.171*"survey" + -0.161*"trees"
+2019-06-08 16:56:40,587 : INFO : topic #0(1.594): 0.703*"trees" + 0.538*"graph" + 0.402*"minors" + 0.187*"survey" + 0.061*"system" + 0.060*"time" + 0.060*"response" + 0.058*"user" + 0.049*"computer" + 0.035*"interface"
+2019-06-08 16:56:40,587 : INFO : topic #1(1.476): 0.460*"system" + 0.373*"user" + 0.332*"eps" + 0.328*"interface" + 0.320*"time" + 0.320*"response" + 0.293*"computer" + 0.280*"human" + 0.171*"survey" + -0.161*"trees"
+2019-06-08 16:57:02,263 : WARNING : scanning corpus to determine the number of features (consider setting `num_features` explicitly)
+2019-06-08 16:57:02,264 : INFO : creating matrix with 9 documents and 2 features
+ERROR:root:Invalid alias: The name clear can't be aliased because it is another magic command.
+ERROR:root:Invalid alias: The name more can't be aliased because it is another magic command.
+ERROR:root:Invalid alias: The name less can't be aliased because it is another magic command.
+ERROR:root:Invalid alias: The name man can't be aliased because it is another magic command.
