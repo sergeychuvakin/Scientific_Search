@@ -1,0 +1,306 @@
+alias.py[LINE:221]# ERROR    [2019-06-08 17:10:26,259]  Invalid alias: The name clear can't be aliased because it is another magic command.
+alias.py[LINE:221]# ERROR    [2019-06-08 17:10:26,260]  Invalid alias: The name more can't be aliased because it is another magic command.
+alias.py[LINE:221]# ERROR    [2019-06-08 17:10:26,260]  Invalid alias: The name less can't be aliased because it is another magic command.
+alias.py[LINE:221]# ERROR    [2019-06-08 17:10:26,260]  Invalid alias: The name man can't be aliased because it is another magic command.
+<ipython-input-1-551c669477d2>[LINE:4]# DEBUG    [2019-06-08 17:11:54,136]  debug
+<ipython-input-1-551c669477d2>[LINE:5]# INFO     [2019-06-08 17:11:54,137]  info
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:11:56,643]  {'transport_params': None, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'r', 'uri': '/home/chuvakin/.local/lib/python3.6/site-packages/smart_open/VERSION'}
+textcleaner.py[LINE:37]# INFO     [2019-06-08 17:11:57,121]  'pattern' package not found; tag filters are not available for English
+ну connectionpool.py[LINE:813]# DEBUG    [2019-06-08 17:15:22,509]  Starting new HTTPS connection (1): api.crossref.org:443
+connectionpool.py[LINE:393]# DEBUG    [2019-06-08 17:15:30,946]  https://api.crossref.org:443 "GET /works?rows=7&query.title=Fate+of+degraded+pollutants+in+waste+gas+biofiltration%3A+An+overview+of+carbon+end-points HTTP/1.1" 200 115861
+utils.py[LINE:422]# INFO     [2019-06-08 17:21:23,060]  loading Dictionary object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/pubmed_75000docs.dict
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,060]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,061]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/pubmed_75000docs.dict'}
+utils.py[LINE:428]# INFO     [2019-06-08 17:21:23,098]  loaded /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/pubmed_75000docs.dict
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,099]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,099]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/pubmed_5docs.mm.index'}
+mmcorpus.py[LINE:66]# INFO     [2019-06-08 17:21:23,100]  initializing cython corpus reader from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/pubmed_5docs.mm
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,100]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,100]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/pubmed_5docs.mm'}
+mmcorpus.py[LINE:66]# INFO     [2019-06-08 17:21:23,102]  accepted corpus with 5 documents, 15808 features, 73252 non-zero entries
+utils.py[LINE:422]# INFO     [2019-06-08 17:21:23,102]  loading LsiModel object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/pubmed_75000.lsi
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,102]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,103]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/pubmed_75000.lsi'}
+utils.py[LINE:456]# INFO     [2019-06-08 17:21:23,132]  loading id2word recursively from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/pubmed_75000.lsi.id2word.* with mmap=None
+utils.py[LINE:494]# INFO     [2019-06-08 17:21:23,133]  setting ignored attribute projection to None
+utils.py[LINE:494]# INFO     [2019-06-08 17:21:23,133]  setting ignored attribute dispatcher to None
+utils.py[LINE:428]# INFO     [2019-06-08 17:21:23,133]  loaded /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/pubmed_75000.lsi
+utils.py[LINE:422]# INFO     [2019-06-08 17:21:23,133]  loading LsiModel object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/pubmed_75000.lsi.projection
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,133]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,133]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/pubmed_75000.lsi.projection'}
+lsimodel.py[LINE:799]# WARNING  [2019-06-08 17:21:23,134]  failed to load projection from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/pubmed_75000.lsi.projection: [Errno 2] No such file or directory: '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/pubmed_75000.lsi.projection'
+utils.py[LINE:422]# INFO     [2019-06-08 17:21:23,134]  loading Dictionary object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/chem.dict
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,134]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,134]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/chem.dict'}
+utils.py[LINE:428]# INFO     [2019-06-08 17:21:23,138]  loaded /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/chem.dict
+utils.py[LINE:422]# INFO     [2019-06-08 17:21:23,138]  loading LsiModel object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/chem.lsi
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,138]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,139]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/chem.lsi'}
+utils.py[LINE:456]# INFO     [2019-06-08 17:21:23,143]  loading id2word recursively from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/chem.lsi.id2word.* with mmap=None
+utils.py[LINE:494]# INFO     [2019-06-08 17:21:23,143]  setting ignored attribute projection to None
+utils.py[LINE:494]# INFO     [2019-06-08 17:21:23,144]  setting ignored attribute dispatcher to None
+utils.py[LINE:428]# INFO     [2019-06-08 17:21:23,144]  loaded /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/chem.lsi
+utils.py[LINE:422]# INFO     [2019-06-08 17:21:23,144]  loading LsiModel object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/chem.lsi.projection
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,144]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,144]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/chem.lsi.projection'}
+lsimodel.py[LINE:799]# WARNING  [2019-06-08 17:21:23,144]  failed to load projection from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/chem.lsi.projection: [Errno 2] No such file or directory: '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/chem.lsi.projection'
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,145]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,145]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/chem.mm.index'}
+mmcorpus.py[LINE:66]# INFO     [2019-06-08 17:21:23,145]  initializing cython corpus reader from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/chem.mm
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,145]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,145]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/chem.mm'}
+mmcorpus.py[LINE:66]# INFO     [2019-06-08 17:21:23,147]  accepted corpus with 1689 documents, 2991 features, 68597 non-zero entries
+utils.py[LINE:422]# INFO     [2019-06-08 17:21:23,147]  loading Dictionary object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/cancer.dict
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,148]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,148]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/cancer.dict'}
+utils.py[LINE:428]# INFO     [2019-06-08 17:21:23,153]  loaded /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/cancer.dict
+utils.py[LINE:422]# INFO     [2019-06-08 17:21:23,153]  loading LsiModel object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/cancer.lsi
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,153]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,153]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/cancer.lsi'}
+utils.py[LINE:456]# INFO     [2019-06-08 17:21:23,159]  loading id2word recursively from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/cancer.lsi.id2word.* with mmap=None
+utils.py[LINE:494]# INFO     [2019-06-08 17:21:23,160]  setting ignored attribute projection to None
+utils.py[LINE:494]# INFO     [2019-06-08 17:21:23,160]  setting ignored attribute dispatcher to None
+utils.py[LINE:428]# INFO     [2019-06-08 17:21:23,160]  loaded /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/cancer.lsi
+utils.py[LINE:422]# INFO     [2019-06-08 17:21:23,160]  loading LsiModel object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/cancer.lsi.projection
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,160]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,160]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/cancer.lsi.projection'}
+lsimodel.py[LINE:799]# WARNING  [2019-06-08 17:21:23,161]  failed to load projection from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/cancer.lsi.projection: [Errno 2] No such file or directory: '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/cancer.lsi.projection'
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,161]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,161]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/cancer.mm.index'}
+mmcorpus.py[LINE:66]# INFO     [2019-06-08 17:21:23,161]  initializing cython corpus reader from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/cancer.mm
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,161]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,162]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/cancer.mm'}
+mmcorpus.py[LINE:66]# INFO     [2019-06-08 17:21:23,163]  accepted corpus with 1952 documents, 4602 features, 135799 non-zero entries
+utils.py[LINE:422]# INFO     [2019-06-08 17:21:23,163]  loading Dictionary object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/aiz.dict
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,163]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,164]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/aiz.dict'}
+utils.py[LINE:428]# INFO     [2019-06-08 17:21:23,165]  loaded /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/aiz.dict
+utils.py[LINE:422]# INFO     [2019-06-08 17:21:23,166]  loading LsiModel object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/aiz.lsi
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,166]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,166]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/aiz.lsi'}
+utils.py[LINE:456]# INFO     [2019-06-08 17:21:23,167]  loading id2word recursively from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/aiz.lsi.id2word.* with mmap=None
+utils.py[LINE:494]# INFO     [2019-06-08 17:21:23,168]  setting ignored attribute projection to None
+utils.py[LINE:494]# INFO     [2019-06-08 17:21:23,168]  setting ignored attribute dispatcher to None
+utils.py[LINE:428]# INFO     [2019-06-08 17:21:23,168]  loaded /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/aiz.lsi
+utils.py[LINE:422]# INFO     [2019-06-08 17:21:23,168]  loading LsiModel object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/aiz.lsi.projection
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,168]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,168]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/aiz.lsi.projection'}
+lsimodel.py[LINE:799]# WARNING  [2019-06-08 17:21:23,169]  failed to load projection from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/aiz.lsi.projection: [Errno 2] No such file or directory: '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/aiz.lsi.projection'
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,169]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,169]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/aiz.mm.index'}
+mmcorpus.py[LINE:66]# INFO     [2019-06-08 17:21:23,169]  initializing cython corpus reader from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/aiz.mm
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,169]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,169]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/aiz.mm'}
+mmcorpus.py[LINE:66]# INFO     [2019-06-08 17:21:23,171]  accepted corpus with 219 documents, 732 features, 9706 non-zero entries
+utils.py[LINE:422]# INFO     [2019-06-08 17:21:23,171]  loading Dictionary object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/infect.dict
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,171]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,171]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/infect.dict'}
+utils.py[LINE:428]# INFO     [2019-06-08 17:21:23,173]  loaded /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/infect.dict
+utils.py[LINE:422]# INFO     [2019-06-08 17:21:23,173]  loading LsiModel object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/infect.lsi
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,173]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,174]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/infect.lsi'}
+utils.py[LINE:456]# INFO     [2019-06-08 17:21:23,175]  loading id2word recursively from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/infect.lsi.id2word.* with mmap=None
+utils.py[LINE:494]# INFO     [2019-06-08 17:21:23,175]  setting ignored attribute projection to None
+utils.py[LINE:494]# INFO     [2019-06-08 17:21:23,176]  setting ignored attribute dispatcher to None
+utils.py[LINE:428]# INFO     [2019-06-08 17:21:23,176]  loaded /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/infect.lsi
+utils.py[LINE:422]# INFO     [2019-06-08 17:21:23,176]  loading LsiModel object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/infect.lsi.projection
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,176]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,176]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/infect.lsi.projection'}
+lsimodel.py[LINE:799]# WARNING  [2019-06-08 17:21:23,177]  failed to load projection from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/infect.lsi.projection: [Errno 2] No such file or directory: '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/infect.lsi.projection'
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,177]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,178]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/infect.mm.index'}
+mmcorpus.py[LINE:66]# INFO     [2019-06-08 17:21:23,178]  initializing cython corpus reader from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/infect.mm
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,178]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,179]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/infect.mm'}
+mmcorpus.py[LINE:66]# INFO     [2019-06-08 17:21:23,180]  accepted corpus with 75 documents, 263 features, 2668 non-zero entries
+utils.py[LINE:422]# INFO     [2019-06-08 17:21:23,180]  loading Dictionary object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/eye.dict
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,180]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,181]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/eye.dict'}
+utils.py[LINE:428]# INFO     [2019-06-08 17:21:23,182]  loaded /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/eye.dict
+utils.py[LINE:422]# INFO     [2019-06-08 17:21:23,183]  loading LsiModel object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/eye.lsi
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,183]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,183]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/eye.lsi'}
+utils.py[LINE:456]# INFO     [2019-06-08 17:21:23,185]  loading id2word recursively from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/eye.lsi.id2word.* with mmap=None
+utils.py[LINE:494]# INFO     [2019-06-08 17:21:23,185]  setting ignored attribute projection to None
+utils.py[LINE:494]# INFO     [2019-06-08 17:21:23,185]  setting ignored attribute dispatcher to None
+utils.py[LINE:428]# INFO     [2019-06-08 17:21:23,185]  loaded /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/eye.lsi
+utils.py[LINE:422]# INFO     [2019-06-08 17:21:23,186]  loading LsiModel object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/eye.lsi.projection
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,186]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,186]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/eye.lsi.projection'}
+lsimodel.py[LINE:799]# WARNING  [2019-06-08 17:21:23,186]  failed to load projection from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/eye.lsi.projection: [Errno 2] No such file or directory: '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/eye.lsi.projection'
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,187]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,187]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/eye.mm.index'}
+mmcorpus.py[LINE:66]# INFO     [2019-06-08 17:21:23,188]  initializing cython corpus reader from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/eye.mm
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,188]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,189]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/eye.mm'}
+mmcorpus.py[LINE:66]# INFO     [2019-06-08 17:21:23,190]  accepted corpus with 8 documents, 19 features, 65 non-zero entries
+utils.py[LINE:422]# INFO     [2019-06-08 17:21:23,190]  loading Dictionary object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/gene.dict
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,190]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,191]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/gene.dict'}
+utils.py[LINE:428]# INFO     [2019-06-08 17:21:23,191]  loaded /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/gene.dict
+utils.py[LINE:422]# INFO     [2019-06-08 17:21:23,192]  loading LsiModel object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/gene.lsi
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,192]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,193]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/gene.lsi'}
+utils.py[LINE:456]# INFO     [2019-06-08 17:21:23,198]  loading id2word recursively from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/gene.lsi.id2word.* with mmap=None
+utils.py[LINE:494]# INFO     [2019-06-08 17:21:23,200]  setting ignored attribute projection to None
+utils.py[LINE:494]# INFO     [2019-06-08 17:21:23,201]  setting ignored attribute dispatcher to None
+utils.py[LINE:428]# INFO     [2019-06-08 17:21:23,202]  loaded /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/gene.lsi
+utils.py[LINE:422]# INFO     [2019-06-08 17:21:23,202]  loading LsiModel object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/gene.lsi.projection
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,202]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,203]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/gene.lsi.projection'}
+lsimodel.py[LINE:799]# WARNING  [2019-06-08 17:21:23,203]  failed to load projection from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/gene.lsi.projection: [Errno 2] No such file or directory: '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/gene.lsi.projection'
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,204]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,204]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/gene.mm.index'}
+mmcorpus.py[LINE:66]# INFO     [2019-06-08 17:21:23,208]  initializing cython corpus reader from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/gene.mm
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:21:23,209]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:21:23,211]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/gene.mm'}
+mmcorpus.py[LINE:66]# INFO     [2019-06-08 17:21:23,215]  accepted corpus with 5 documents, 6 features, 19 non-zero entries
+utils.py[LINE:422]# INFO     [2019-06-08 17:29:55,064]  loading Dictionary object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/pubmed_75000docs.dict
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,065]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,065]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/pubmed_75000docs.dict'}
+utils.py[LINE:428]# INFO     [2019-06-08 17:29:55,112]  loaded /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/pubmed_75000docs.dict
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,114]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,115]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/pubmed_5docs.mm.index'}
+mmcorpus.py[LINE:66]# INFO     [2019-06-08 17:29:55,119]  initializing cython corpus reader from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/pubmed_5docs.mm
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,119]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,119]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/pubmed_5docs.mm'}
+mmcorpus.py[LINE:66]# INFO     [2019-06-08 17:29:55,120]  accepted corpus with 5 documents, 15808 features, 73252 non-zero entries
+utils.py[LINE:422]# INFO     [2019-06-08 17:29:55,121]  loading LsiModel object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/pubmed_75000.lsi
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,121]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,121]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/pubmed_75000.lsi'}
+utils.py[LINE:456]# INFO     [2019-06-08 17:29:55,136]  loading id2word recursively from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/pubmed_75000.lsi.id2word.* with mmap=None
+utils.py[LINE:494]# INFO     [2019-06-08 17:29:55,136]  setting ignored attribute projection to None
+utils.py[LINE:494]# INFO     [2019-06-08 17:29:55,136]  setting ignored attribute dispatcher to None
+utils.py[LINE:428]# INFO     [2019-06-08 17:29:55,136]  loaded /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/pubmed_75000.lsi
+utils.py[LINE:422]# INFO     [2019-06-08 17:29:55,137]  loading LsiModel object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/pubmed_75000.lsi.projection
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,137]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,137]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/pubmed_75000.lsi.projection'}
+lsimodel.py[LINE:799]# WARNING  [2019-06-08 17:29:55,137]  failed to load projection from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/pubmed_75000.lsi.projection: [Errno 2] No such file or directory: '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/pubmed_75000.lsi.projection'
+utils.py[LINE:422]# INFO     [2019-06-08 17:29:55,137]  loading Dictionary object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/chem.dict
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,138]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,138]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/chem.dict'}
+utils.py[LINE:428]# INFO     [2019-06-08 17:29:55,141]  loaded /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/chem.dict
+utils.py[LINE:422]# INFO     [2019-06-08 17:29:55,141]  loading LsiModel object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/chem.lsi
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,142]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,142]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/chem.lsi'}
+utils.py[LINE:456]# INFO     [2019-06-08 17:29:55,145]  loading id2word recursively from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/chem.lsi.id2word.* with mmap=None
+utils.py[LINE:494]# INFO     [2019-06-08 17:29:55,145]  setting ignored attribute projection to None
+utils.py[LINE:494]# INFO     [2019-06-08 17:29:55,145]  setting ignored attribute dispatcher to None
+utils.py[LINE:428]# INFO     [2019-06-08 17:29:55,145]  loaded /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/chem.lsi
+utils.py[LINE:422]# INFO     [2019-06-08 17:29:55,145]  loading LsiModel object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/chem.lsi.projection
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,145]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,145]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/chem.lsi.projection'}
+lsimodel.py[LINE:799]# WARNING  [2019-06-08 17:29:55,146]  failed to load projection from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/chem.lsi.projection: [Errno 2] No such file or directory: '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/chem.lsi.projection'
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,146]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,147]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/chem.mm.index'}
+mmcorpus.py[LINE:66]# INFO     [2019-06-08 17:29:55,147]  initializing cython corpus reader from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/chem.mm
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,148]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,148]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/chem.mm'}
+mmcorpus.py[LINE:66]# INFO     [2019-06-08 17:29:55,149]  accepted corpus with 1689 documents, 2991 features, 68597 non-zero entries
+utils.py[LINE:422]# INFO     [2019-06-08 17:29:55,149]  loading Dictionary object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/cancer.dict
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,149]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,149]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/cancer.dict'}
+utils.py[LINE:428]# INFO     [2019-06-08 17:29:55,152]  loaded /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/cancer.dict
+utils.py[LINE:422]# INFO     [2019-06-08 17:29:55,152]  loading LsiModel object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/cancer.lsi
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,152]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,153]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/cancer.lsi'}
+utils.py[LINE:456]# INFO     [2019-06-08 17:29:55,157]  loading id2word recursively from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/cancer.lsi.id2word.* with mmap=None
+utils.py[LINE:494]# INFO     [2019-06-08 17:29:55,157]  setting ignored attribute projection to None
+utils.py[LINE:494]# INFO     [2019-06-08 17:29:55,157]  setting ignored attribute dispatcher to None
+utils.py[LINE:428]# INFO     [2019-06-08 17:29:55,157]  loaded /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/cancer.lsi
+utils.py[LINE:422]# INFO     [2019-06-08 17:29:55,157]  loading LsiModel object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/cancer.lsi.projection
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,157]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,158]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/cancer.lsi.projection'}
+lsimodel.py[LINE:799]# WARNING  [2019-06-08 17:29:55,158]  failed to load projection from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/cancer.lsi.projection: [Errno 2] No such file or directory: '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/cancer.lsi.projection'
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,158]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,158]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/cancer.mm.index'}
+mmcorpus.py[LINE:66]# INFO     [2019-06-08 17:29:55,159]  initializing cython corpus reader from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/cancer.mm
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,159]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,159]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/cancer.mm'}
+mmcorpus.py[LINE:66]# INFO     [2019-06-08 17:29:55,160]  accepted corpus with 1952 documents, 4602 features, 135799 non-zero entries
+utils.py[LINE:422]# INFO     [2019-06-08 17:29:55,160]  loading Dictionary object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/aiz.dict
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,160]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,160]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/aiz.dict'}
+utils.py[LINE:428]# INFO     [2019-06-08 17:29:55,161]  loaded /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/aiz.dict
+utils.py[LINE:422]# INFO     [2019-06-08 17:29:55,162]  loading LsiModel object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/aiz.lsi
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,162]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,162]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/aiz.lsi'}
+utils.py[LINE:456]# INFO     [2019-06-08 17:29:55,163]  loading id2word recursively from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/aiz.lsi.id2word.* with mmap=None
+utils.py[LINE:494]# INFO     [2019-06-08 17:29:55,163]  setting ignored attribute projection to None
+utils.py[LINE:494]# INFO     [2019-06-08 17:29:55,163]  setting ignored attribute dispatcher to None
+utils.py[LINE:428]# INFO     [2019-06-08 17:29:55,163]  loaded /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/aiz.lsi
+utils.py[LINE:422]# INFO     [2019-06-08 17:29:55,164]  loading LsiModel object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/aiz.lsi.projection
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,164]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,164]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/aiz.lsi.projection'}
+lsimodel.py[LINE:799]# WARNING  [2019-06-08 17:29:55,165]  failed to load projection from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/aiz.lsi.projection: [Errno 2] No such file or directory: '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/aiz.lsi.projection'
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,165]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,165]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/aiz.mm.index'}
+mmcorpus.py[LINE:66]# INFO     [2019-06-08 17:29:55,166]  initializing cython corpus reader from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/aiz.mm
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,166]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,166]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/aiz.mm'}
+mmcorpus.py[LINE:66]# INFO     [2019-06-08 17:29:55,167]  accepted corpus with 219 documents, 732 features, 9706 non-zero entries
+utils.py[LINE:422]# INFO     [2019-06-08 17:29:55,167]  loading Dictionary object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/infect.dict
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,167]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,167]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/infect.dict'}
+utils.py[LINE:428]# INFO     [2019-06-08 17:29:55,168]  loaded /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/infect.dict
+utils.py[LINE:422]# INFO     [2019-06-08 17:29:55,168]  loading LsiModel object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/infect.lsi
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,168]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,168]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/infect.lsi'}
+utils.py[LINE:456]# INFO     [2019-06-08 17:29:55,169]  loading id2word recursively from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/infect.lsi.id2word.* with mmap=None
+utils.py[LINE:494]# INFO     [2019-06-08 17:29:55,169]  setting ignored attribute projection to None
+utils.py[LINE:494]# INFO     [2019-06-08 17:29:55,170]  setting ignored attribute dispatcher to None
+utils.py[LINE:428]# INFO     [2019-06-08 17:29:55,170]  loaded /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/infect.lsi
+utils.py[LINE:422]# INFO     [2019-06-08 17:29:55,170]  loading LsiModel object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/infect.lsi.projection
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,170]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,170]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/infect.lsi.projection'}
+lsimodel.py[LINE:799]# WARNING  [2019-06-08 17:29:55,170]  failed to load projection from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/infect.lsi.projection: [Errno 2] No such file or directory: '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/infect.lsi.projection'
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,170]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,171]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/infect.mm.index'}
+mmcorpus.py[LINE:66]# INFO     [2019-06-08 17:29:55,171]  initializing cython corpus reader from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/infect.mm
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,171]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,171]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/infect.mm'}
+mmcorpus.py[LINE:66]# INFO     [2019-06-08 17:29:55,172]  accepted corpus with 75 documents, 263 features, 2668 non-zero entries
+utils.py[LINE:422]# INFO     [2019-06-08 17:29:55,172]  loading Dictionary object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/eye.dict
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,172]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,172]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/eye.dict'}
+utils.py[LINE:428]# INFO     [2019-06-08 17:29:55,173]  loaded /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/eye.dict
+utils.py[LINE:422]# INFO     [2019-06-08 17:29:55,173]  loading LsiModel object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/eye.lsi
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,173]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,174]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/eye.lsi'}
+utils.py[LINE:456]# INFO     [2019-06-08 17:29:55,175]  loading id2word recursively from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/eye.lsi.id2word.* with mmap=None
+utils.py[LINE:494]# INFO     [2019-06-08 17:29:55,175]  setting ignored attribute projection to None
+utils.py[LINE:494]# INFO     [2019-06-08 17:29:55,175]  setting ignored attribute dispatcher to None
+utils.py[LINE:428]# INFO     [2019-06-08 17:29:55,175]  loaded /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/eye.lsi
+utils.py[LINE:422]# INFO     [2019-06-08 17:29:55,175]  loading LsiModel object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/eye.lsi.projection
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,175]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,175]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/eye.lsi.projection'}
+lsimodel.py[LINE:799]# WARNING  [2019-06-08 17:29:55,176]  failed to load projection from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/eye.lsi.projection: [Errno 2] No such file or directory: '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/eye.lsi.projection'
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,176]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,176]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/eye.mm.index'}
+mmcorpus.py[LINE:66]# INFO     [2019-06-08 17:29:55,176]  initializing cython corpus reader from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/eye.mm
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,177]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,177]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/eye.mm'}
+mmcorpus.py[LINE:66]# INFO     [2019-06-08 17:29:55,177]  accepted corpus with 8 documents, 19 features, 65 non-zero entries
+utils.py[LINE:422]# INFO     [2019-06-08 17:29:55,178]  loading Dictionary object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/gene.dict
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,178]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,178]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/gene.dict'}
+utils.py[LINE:428]# INFO     [2019-06-08 17:29:55,179]  loaded /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/gene.dict
+utils.py[LINE:422]# INFO     [2019-06-08 17:29:55,179]  loading LsiModel object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/gene.lsi
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,179]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,179]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/gene.lsi'}
+utils.py[LINE:456]# INFO     [2019-06-08 17:29:55,181]  loading id2word recursively from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/gene.lsi.id2word.* with mmap=None
+utils.py[LINE:494]# INFO     [2019-06-08 17:29:55,181]  setting ignored attribute projection to None
+utils.py[LINE:494]# INFO     [2019-06-08 17:29:55,181]  setting ignored attribute dispatcher to None
+utils.py[LINE:428]# INFO     [2019-06-08 17:29:55,182]  loaded /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/gene.lsi
+utils.py[LINE:422]# INFO     [2019-06-08 17:29:55,182]  loading LsiModel object from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/gene.lsi.projection
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,182]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,183]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/gene.lsi.projection'}
+lsimodel.py[LINE:799]# WARNING  [2019-06-08 17:29:55,184]  failed to load projection from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/gene.lsi.projection: [Errno 2] No such file or directory: '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/gene.lsi.projection'
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,184]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,185]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/gene.mm.index'}
+mmcorpus.py[LINE:66]# INFO     [2019-06-08 17:29:55,187]  initializing cython corpus reader from /mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/gene.mm
+smart_open_lib.py[LINE:385]# WARNING  [2019-06-08 17:29:55,188]  this function is deprecated, use smart_open.open instead
+smart_open_lib.py[LINE:293]# DEBUG    [2019-06-08 17:29:55,190]  {'transport_params': {}, 'ignore_ext': False, 'opener': None, 'closefd': True, 'newline': None, 'errors': None, 'encoding': None, 'buffering': -1, 'mode': 'rb', 'uri': '/mnt/c/Users/chuvakin/Desktop/ScientificSearch/main/models_lsi/gene.mm'}
+mmcorpus.py[LINE:66]# INFO     [2019-06-08 17:29:55,196]  accepted corpus with 5 documents, 6 features, 19 non-zero entries
+cache.py[LINE:127]# DEBUG    [2019-06-08 17:31:02,761]  pickle loaded: /home/chuvakin/.local/lib/python3.6/site-packages/gensim/models/lsimodel.py
+cache.py[LINE:127]# DEBUG    [2019-06-08 17:31:02,877]  pickle loaded: /home/chuvakin/.local/lib/python3.6/site-packages/gensim/models/basemodel.py
