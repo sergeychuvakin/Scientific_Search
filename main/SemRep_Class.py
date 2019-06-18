@@ -8,7 +8,8 @@ class SemanticRepresentation:
     def __init__(self, path): 
         self.file = os.path.splitext(path)[0]
         self.path = path
-        self.output = self.file+'.xml'
+        #self.output = self.file+'.xml'
+        self.output = '/home/BIOCAD/chuvakin/serge/science_search/outtext.xml'
     def startMM(self):
         os.system('/home/BIOCAD/chuvakin/serge/science_search/public_mm/bin/skrmedpostctl start')
         os.system('/home/BIOCAD/chuvakin/serge/science_search/public_mm/bin/wsdserverctl start')
@@ -34,7 +35,7 @@ class SemanticRepresentation:
     def findRelations(self):
         self.run()
         self.semrep()
-        with open(self.path, 'r') as f:
+        with open(self.output, 'r') as f:
             t = f.read()
     
         soup = BeautifulSoup(t, 'lxml')
@@ -51,10 +52,12 @@ class SemanticRepresentation:
         rel  = [i.find('predicate')['type'] for i in soup.find_all('predication')]
         Predications = pd.DataFrame({'subject':subject_id, 'object':object_id, 'relation':rel})
         Predications = Predications.replace(rule)
+        self.stopMM()
         return Predications, Entities
+        
     def aux(self,name):
-        os.rename(name, os.path.split(n)[0] + '/' + 'tmp.txt')
-        return os.path.split(n)[0] + '/' + 'tmp.txt'
+        os.rename(name, os.path.split(name)[0] + '/' + 'tmp.txt')
+        return os.path.split(name)[0] + '/' + 'tmp.txt''
         
 SR = SemanticRepresentation('/home/BIOCAD/chuvakin/serge/science_search/Acute Myeloid Leukaemia New Targets.pdf') 
 
