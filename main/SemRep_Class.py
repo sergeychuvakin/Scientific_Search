@@ -88,3 +88,8 @@ SR = SemanticRepresentation('/home/BIOCAD/chuvakin/serge/science_search/Acute My
 SR.pdf() # transfrom pdf 
 Predications, Entities = SR.findRelations() # form two tables
 SR.stop() # clean eviroment
+
+
+##TODO: 0. how two deal with list of articles
+#       1. add utterances and documents
+#       2. how store all entities and tables, link with neo4j
