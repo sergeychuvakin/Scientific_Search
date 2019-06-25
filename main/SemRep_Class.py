@@ -82,3 +82,9 @@ class SemanticRepresentation:
     def stop(self):
         os.remove(self.output)
         os.remove(self.newname)
+        self.stopMM()
+        
+SR = SemanticRepresentation('/home/BIOCAD/chuvakin/serge/science_search/Acute Myeloid Leukaemia New Targets.pdf') 
+SR.pdf() # transfrom pdf 
+Predications, Entities = SR.findRelations() # form two tables
+SR.stop() # clean eviroment
