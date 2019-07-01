@@ -1,0 +1,67 @@
+,Unnamed: 0,source,target,relation
+0,0,Future,Author,PROCESS_OF
+1,1,Future,Status,ISA
+2,2,Status,Author,PROCESS_OF
+3,3,Relative,Type - attribute,PROCESS_OF
+4,4,Relative,result,ISA
+5,5,result,Type - attribute,PROCESS_OF
+6,6,Age,Old,CAUSES
+7,7,"Leukemia, Myelocytic, Acute",Relapse,PROCESS_OF
+8,8,Elderly,Patients,PROCESS_OF
+9,9,Therapeutic procedure,"Leukemia, Myelocytic, Acute",PRODUCES
+10,10,Gain,Function,AFFECTS
+11,11,METHYLATE,New,AFFECTS
+12,12,EEF1A1 gene,"Component, LOINC Axis 1",INHIBITS
+13,13,Focal,prognostic,PROCESS_OF
+14,14,Relative,Mutation,USES
+15,15,acute,result,AFFECTS
+16,16,acute,Type - attribute,AFFECTS
+17,17,acute,Acute Erythroblastic Leukemia,ISA
+18,18,acute,Type - attribute,AFFECTS
+19,19,Acute Erythroblastic Leukemia,result,AFFECTS
+20,20,Acute Erythroblastic Leukemia,Type - attribute,AFFECTS
+21,21,acute,result,AFFECTS
+22,22,High,Acute Erythroblastic Leukemia,LOCATION_OF
+23,23,Patients,Linear,LOCATION_OF
+24,24,Approach,differentiation therapy,AFFECTS
+25,25,Cells,Status,USES
+26,26,Life,Better,TREATS
+27,27,European Union,Elderly,LOCATION_OF
+28,28,differentiation therapy,entity,PART_OF
+29,29,Human,Vitamin D3 Receptor,LOCATION_OF
+30,30,Mus,Vitamin D3 Receptor,LOCATION_OF
+31,31,"Leukemia, Myelocytic, Acute",Patients,PROCESS_OF
+32,32,Vitamin D3 Receptor,"Leukemia, Myelocytic, Acute",ASSOCIATED_WITH
+33,33,Therapeutic procedure,"Leukemia, Myelocytic, Acute",TREATS
+34,34,Genes,"Leukemia, Myelocytic, Acute",ASSOCIATED_WITH
+35,35,Genes,Malignant Neoplasms,ASSOCIATED_WITH
+36,36,"Spectrum Analysis, Mass","Chromatography, Affinity",USES
+37,37,"Leukemia, Myelocytic, Acute",Neoplasm,ISA
+38,38,EEF1A1 gene,"Leukemia, Myelocytic, Acute",ASSOCIATED_WITH
+39,39,EEF1A1 gene,Neoplasm,ASSOCIATED_WITH
+40,40,,Blast Cell,INTERACTS_WITH
+41,41,Immunomodulators,Pharmaceutical Preparations,ISA
+42,42,Antigens,Cells,PART_OF
+43,43,Azacitidine,"Leukemia, Myelocytic, Acute",TREATS
+44,44,Azacitidine,Patients,TREATS
+45,45,"Leukemia, Myelocytic, Acute",Patients,PROCESS_OF
+46,46,Azacitidine,"Leukemia, Myelocytic, Acute",TREATS
+47,47,"Leukemia, Myelocytic, Acute",Patients,PROCESS_OF
+48,48,Azacitidine,Treatment Protocols,compared_with
+49,49,Azacitidine,Patients,TREATS
+50,50,Treatment Protocols,Patients,TREATS
+51,51,Azacitidine,Patients,TREATS
+52,52,"Leukemia, Myelocytic, Acute",Patients,PROCESS_OF
+53,53,Therapeutic procedure,Acute Erythroblastic Leukemia,TREATS
+54,54,Agent,Acute Erythroblastic Leukemia,TREATS
+55,55,Agent,Pharmacotherapy,compared_with
+56,56,Pharmacotherapy,Patients,TREATS
+57,57,Malignant Neoplasms,Disease,ISA
+58,58,Malignant Neoplasms,Patients,PROCESS_OF
+59,59,"Leukemia, Myelocytic, Acute",Patients,PROCESS_OF
+60,60,Pharmacotherapy,Patients,ADMINISTERED_TO
+61,61,"Leukemia, Myelocytic, Acute",Patients,PROCESS_OF
+62,62,"Leukemia, Myelocytic, Acute",Malignant Neoplasms,ISA
+63,63,Malignant Neoplasms,Patients,PROCESS_OF
+64,64,"Leukemia, Myelocytic, Acute",Patients,PROCESS_OF
+65,65,Pharmacotherapy,Gentle,USES
