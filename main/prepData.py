@@ -1,4 +1,8 @@
+from gensim import corpora, models, similarities
+from stoplist import stoplist
 import os
+
+
 class MyCorpus(object):
     def __init__(self, path, dictionary):
         self.path = path
@@ -75,6 +79,9 @@ class PrepareTexts:
         self.lsi = lsi # make attribute
         return lsi # return to assign new variable
     def run(self): 
+        '''
+        Main method for runnig all together
+        '''
         self.diction()
         self.bow()
         self.lsi_modeling()
