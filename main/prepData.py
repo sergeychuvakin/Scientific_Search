@@ -1,7 +1,4 @@
-from gensim import corpora, models, similarities
-from stoplist import stoplist
-
-
+import os
 class MyCorpus(object):
     def __init__(self, path, dictionary):
         self.path = path
@@ -25,6 +22,7 @@ class PrepareTexts:
     stoplist - list of words
     newName - name for files, produced be gensim.
     n - number of topics
+    repo - folder in workng directory to save trained models. Specifying folder, don't forget type '/' to make folder, e.g. repo='newdata/'
     -------------
     
     Object make his best to save RAM resources, don't store full files in memmory. 
@@ -34,7 +32,7 @@ class PrepareTexts:
     TODO: add lda, word2vec models.
     -------------------------------
     '''
-    def __init__(self, path, stoplist=stoplist, newNames='processedFiles', n=5): 
+    def __init__(self, path, stoplist=stoplist, newNames='processedFiles', n=5, repo=''): 
         '''
         path to initial text. It's assumed that separate docs separeted by new line (\n)
         ''' 
@@ -45,6 +43,9 @@ class PrepareTexts:
         self.n = n
         self.corpus = None
         self.lsi = None
+        self.repo = repo
+        if repo != '' and os.path.exists(repo) == False: # для того, чтобы сохрнять в директорию, которой может не быть 
+            os.mkdir(repo)
     def diction(self): 
         '''
         Form dictonary from gensim.corpora. Corpora module should be imported'''
@@ -53,14 +54,14 @@ class PrepareTexts:
         once_ids = [tokenid for tokenid, docfreq in iteritems(dictionary.dfs) if docfreq == 1] # take ids of stop words 
         dictionary.filter_tokens(stop_ids + once_ids)  # remove stop words and words that appear only once
         self.dictionary = dictionary # make attribute
-        dictionary.save(self.name+'.dict') # save .dict file
+        dictionary.save(self.repo+self.name+'.dict') # save .dict file
         return dictionary # return to assign new variable
     def bow(self): 
         '''
         Method for BOW creation. Run after creation dictionary.  
         '''
         b = MyCorpus(self.path, self.dictionary) # memory friendly way to convert document to bow
-        corpora.MmCorpus.serialize(self.name+'.mm', b) # save to .mm file
+        corpora.MmCorpus.serialize(self.repo+self.name+'.mm', b) # save to .mm file
         self.corpus = b # make attribute
         return b # return to assign new variable
     def lsi_modeling(self):
@@ -70,7 +71,7 @@ class PrepareTexts:
         tfidf = models.TfidfModel(self.corpus) # class initialization
         corpus_tfidf = tfidf[self.corpus] # model training 
         lsi = models.LsiModel(corpus_tfidf, id2word=self.dictionary, num_topics=self.n) # model object creation 
-        lsi.save(self.name+'.lsi') # save model as separate file
+        lsi.save(self.repo+self.name+'.lsi') # save model as separate file
         self.lsi = lsi # make attribute
         return lsi # return to assign new variable
     def run(self): 
@@ -78,5 +79,6 @@ class PrepareTexts:
         self.bow()
         self.lsi_modeling()
 
-p = PrepareTexts(path='data/corpuses_CUB/aiz_CUB.txt',newNames='aiz', n=1)
+
+p = PrepareTexts(path='data/corpuses_CUB/aiz_CUB.txt',newNames='aiz', n=1, repo='testest/')
 p.run()
