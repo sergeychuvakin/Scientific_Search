@@ -1,3 +1,7 @@
+from gensim import corpora, models, similarities
+from stoplist import stoplist
+
+
 class MyCorpus(object):
     def __init__(self, path, dictionary):
         self.path = path
@@ -25,10 +29,15 @@ class PrepareTexts:
     
     Object make his best to save RAM resources, don't store full files in memmory. 
     
-    Developed for Science Search (Monitoring) ends. 
+    Developed for Science Search (Monitoring) ends.
+    -------------------------------
+    TODO: add lda, word2vec models.
+    -------------------------------
     '''
     def __init__(self, path, stoplist=stoplist, newNames='processedFiles', n=5): 
-        '''path to initial text. It's assumed that separate docs separeted by new line (\n)''' 
+        '''
+        path to initial text. It's assumed that separate docs separeted by new line (\n)
+        ''' 
         self.path = path
         self.stop = stoplist
         self.name = newNames
@@ -37,27 +46,37 @@ class PrepareTexts:
         self.corpus = None
         self.lsi = None
     def diction(self): 
-        '''Form dictonary from gensim.corpora. Corpora module should be imported'''
-        dictionary = corpora.Dictionary(line.lower().split() for line in open(self.path))
-        stop_ids = [dictionary.token2id[stopword] for stopword in self.stop if stopword in dictionary.token2id]
-        once_ids = [tokenid for tokenid, docfreq in iteritems(dictionary.dfs) if docfreq == 1]
+        '''
+        Form dictonary from gensim.corpora. Corpora module should be imported'''
+        dictionary = corpora.Dictionary(line.lower().split() for line in open(self.path)) # memory friendly way to make dictionary
+        stop_ids = [dictionary.token2id[stopword] for stopword in self.stop if stopword in dictionary.token2id] # itartion over dictionary to remove stopwords
+        once_ids = [tokenid for tokenid, docfreq in iteritems(dictionary.dfs) if docfreq == 1] # take ids of stop words 
         dictionary.filter_tokens(stop_ids + once_ids)  # remove stop words and words that appear only once
-        self.dictionary = dictionary
-        dictionary.save(self.name+'.dict')
-        return dictionary
+        self.dictionary = dictionary # make attribute
+        dictionary.save(self.name+'.dict') # save .dict file
+        return dictionary # return to assign new variable
     def bow(self): 
-        b = MyCorpus(self.path, self.dictionary)
-        corpora.MmCorpus.serialize(self.name+'.mm', b)
-        self.corpus = b
-        return b
+        '''
+        Method for BOW creation. Run after creation dictionary.  
+        '''
+        b = MyCorpus(self.path, self.dictionary) # memory friendly way to convert document to bow
+        corpora.MmCorpus.serialize(self.name+'.mm', b) # save to .mm file
+        self.corpus = b # make attribute
+        return b # return to assign new variable
     def lsi_modeling(self):
-        tfidf = models.TfidfModel(self.corpus)
-        corpus_tfidf = tfidf[self.corpus]
-        lsi = models.LsiModel(corpus_tfidf, id2word=self.dictionary, num_topics=self.n)   
-        lsi.save(self.name+'.lsi') 
-        self.lsi = lsi
-        return lsi
+        '''
+        LSI model training. Run after corpus creation (bow method).  
+        '''
+        tfidf = models.TfidfModel(self.corpus) # class initialization
+        corpus_tfidf = tfidf[self.corpus] # model training 
+        lsi = models.LsiModel(corpus_tfidf, id2word=self.dictionary, num_topics=self.n) # model object creation 
+        lsi.save(self.name+'.lsi') # save model as separate file
+        self.lsi = lsi # make attribute
+        return lsi # return to assign new variable
     def run(self): 
         self.diction()
         self.bow()
         self.lsi_modeling()
+
+p = PrepareTexts(path='data/corpuses_CUB/aiz_CUB.txt',newNames='aiz', n=1)
+p.run()
