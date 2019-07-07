@@ -2,7 +2,6 @@ from gensim import corpora, models, similarities
 from stoplist import stoplist
 import os
 
-
 class MyCorpus(object):
     def __init__(self, path, dictionary):
         self.path = path
@@ -50,12 +49,13 @@ class PrepareTexts:
         self.repo = repo
         if repo != '' and os.path.exists(repo) == False: # для того, чтобы сохрнять в директорию, которой может не быть 
             os.mkdir(repo)
+        #self.six = __import__('six')
     def diction(self): 
         '''
         Form dictonary from gensim.corpora. Corpora module should be imported'''
         dictionary = corpora.Dictionary(line.lower().split() for line in open(self.path)) # memory friendly way to make dictionary
         stop_ids = [dictionary.token2id[stopword] for stopword in self.stop if stopword in dictionary.token2id] # itartion over dictionary to remove stopwords
-        once_ids = [tokenid for tokenid, docfreq in iteritems(dictionary.dfs) if docfreq == 1] # take ids of stop words 
+        once_ids = [tokenid for tokenid, docfreq in dict.items(dictionary.dfs) if docfreq == 1] # take ids of stop words 
         dictionary.filter_tokens(stop_ids + once_ids)  # remove stop words and words that appear only once
         self.dictionary = dictionary # make attribute
         dictionary.save(self.repo+self.name+'.dict') # save .dict file
@@ -79,9 +79,6 @@ class PrepareTexts:
         self.lsi = lsi # make attribute
         return lsi # return to assign new variable
     def run(self): 
-        '''
-        Main method for runnig all together
-        '''
         self.diction()
         self.bow()
         self.lsi_modeling()
