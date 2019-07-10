@@ -19,6 +19,7 @@ class SemanticRepresentation:
     1) if your pass pdf file, run pdf() first
     2) after all actions don't forget to stopMM()
     3) MM  starts apprximately 1 min.
+    4) optional parameters -M -l -g -E
     '''
     def __init__(self, path): 
         self.file = os.path.splitext(path)[0]
@@ -66,10 +67,16 @@ class SemanticRepresentation:
         end = [i['end']for i in soup.find_all('entity')]
         Entities = pd.DataFrame({'Sem':semtypes, 'id':_id,'name':name, 'text':text, 'begin':begin, 'end':end })
         rule = dict(zip(Entities['id'], Entities['name']))
-        subject_id = [i.find('subject')['entityid'] for i in soup.find_all('predication')]
-        object_id = [i.find('object')['entityid'] for i in soup.find_all('predication')]
-        rel  = [i.find('predicate')['type'] for i in soup.find_all('predication')]
-        Predications = pd.DataFrame({'subject':subject_id, 'object':object_id, 'relation':rel})
+        subject_id = []
+        object_id = []
+        rel = []
+        utter = []
+        for i in soup.find_all('utterance'):
+            subject_id.extend([ii.find('subject')['entityid'] for ii in i.find_all('predication')])
+            object_id.extend([ii.find('object')['entityid'] for ii in i.find_all('predication')])
+            rel.extend([ii.find('predicate')['type'] for ii in i.find_all('predication')])
+            utter.extend([i.get('text')]*len(i.find_all('predication')))
+        Predications = pd.DataFrame({'subject':subject_id, 'object':object_id, 'relation':rel, 'utterance':utter})
         Predications = Predications.replace(rule)
         #self.stopMM()
         #self.stop()
@@ -82,7 +89,7 @@ class SemanticRepresentation:
     def stop(self):
         os.remove(self.output)
         os.remove(self.newname)
-        self.stopMM()
+        #self.stopMM()
         
 SR = SemanticRepresentation('/home/BIOCAD/chuvakin/serge/science_search/Acute Myeloid Leukaemia New Targets.pdf') 
 SR.pdf() # transfrom pdf 
@@ -91,5 +98,5 @@ SR.stop() # clean eviroment
 
 
 ##TODO: 0. how two deal with list of articles
-#       1. add utterances and documents
+#       1. add utterances and documents (+)
 #       2. how store all entities and tables, link with neo4j
