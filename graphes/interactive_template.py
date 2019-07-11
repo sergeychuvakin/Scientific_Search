@@ -88,3 +88,7 @@ p.add_layout(labels2)
 #p.add_layout(Arrow(end=OpenHead(size=15), source=source, x_start='x_start', y_start='y_start', x_end='x_end', y_end='y_end'))
 output_file('second.html')
 show(p)
+#TODO: 
+   # 1) добавить div
+   # 2) проблемы c лишними\недостающими нодами 
+   # 3) переносы? (сейчас переносить только на правую сторону корректно) мб сделать кастомный hover
