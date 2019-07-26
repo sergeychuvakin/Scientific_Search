@@ -27,8 +27,10 @@ class SemanticRepresentation:
         #self.output = self.file+'.xml'
         #self.output = '/home/BIOCAD/chuvakin/serge/science_search/outtext.xml'
         path, name = os.path.split(path)
-        self.output = path + '/' + os.path.splitext(name.replace(' ', ''))[0] + '.xml' # убираем в имени файла пробелы и формируем аутпут
-        self.newname = path + '/'+ os.path.splitext(name.replace(' ', ''))[0] + '.txt' # новое имя, чтобы переименовать 
+        #self.output = path + '/' + os.path.splitext(name.replace(' ', ''))[0] + '.xml' # убираем в имени файла пробелы и формируем аутпут
+        #self.newname = path + '/'+ os.path.splitext(name.replace(' ', ''))[0] + '.txt' # новое имя, чтобы переименовать
+        self.output = path + '/' + os.path.splitext(re.sub(r'[\(\)\s’]', '', name))[0] + '.xml' # убираем в имени файла пробелы (и скобки)  и формируем аутпут
+        self.newname = path + '/'+ os.path.splitext(re.sub(r'[\(\)\s’]', '', name))[0] + '.txt' # новое имя, чтобы переименовать 
     def startMM(self):
         os.system('/home/BIOCAD/chuvakin/serge/science_search/public_mm/bin/skrmedpostctl start')
         os.system('/home/BIOCAD/chuvakin/serge/science_search/public_mm/bin/wsdserverctl start')
@@ -41,7 +43,7 @@ class SemanticRepresentation:
             inputT = self.path 
         if output == None:
             output = self.output
-        os.system('/home/BIOCAD/chuvakin/serge/science_search/public_semrep/bin/semrep.v1.8 -X -L 2018 {x} {y}'.format(x=inputT, y=output)) 
+        os.system('/home/BIOCAD/chuvakin/serge/science_search/public_semrep/bin/semrep.v1.8 -X -L 2018 -M -l -g -E "{x}" "{y}"'.format(x=inputT, y=output)) 
     def check(self): 
         os.system('ln -svf /usr/local/chuvakin/pcre-8.42/lib/libpcre.so.1 libpcre.so.1')
     def run(self): 
@@ -89,7 +91,7 @@ class SemanticRepresentation:
     def stop(self):
         os.remove(self.output)
         os.remove(self.newname)
-        #self.stopMM()
+        #self.stopMM
         
 SR = SemanticRepresentation('/home/BIOCAD/chuvakin/serge/science_search/Acute Myeloid Leukaemia New Targets.pdf') 
 SR.pdf() # transfrom pdf 
