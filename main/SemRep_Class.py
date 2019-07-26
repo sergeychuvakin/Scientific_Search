@@ -99,6 +99,6 @@ Predications, Entities = SR.findRelations() # form two tables
 SR.stop() # clean eviroment
 
 
-##TODO: 0. how two deal with list of articles
+##TODO: 0. how two deal with list of articles (done in higherClass.py)
 #       1. add utterances and documents (+)
-#       2. how store all entities and tables, link with neo4j
+#       2. how store all entities and tables, link with neo4j (hold)
