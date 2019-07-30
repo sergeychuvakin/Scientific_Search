@@ -21,7 +21,8 @@ class SemanticRepresentation:
     3) MM  starts apprximately 1 min.
     4) optional parameters -M -l -g -E
     '''
-    def __init__(self, path): 
+    def __init__(self, path):
+        '''Due to the fact we work with multiple files creating in process, we should name it propely'''
         self.file = os.path.splitext(path)[0]
         self.path = path
         #self.output = self.file+'.xml'
@@ -32,29 +33,38 @@ class SemanticRepresentation:
         self.output = path + '/' + os.path.splitext(re.sub(r'[\(\)\s’]', '', name))[0] + '.xml' # убираем в имени файла пробелы (и скобки)  и формируем аутпут
         self.newname = path + '/'+ os.path.splitext(re.sub(r'[\(\)\s’]', '', name))[0] + '.txt' # новое имя, чтобы переименовать 
     def startMM(self):
+        '''Start server MetaMap. It takes about 1 minute to start'''
         os.system('/home/BIOCAD/chuvakin/serge/science_search/public_mm/bin/skrmedpostctl start')
         os.system('/home/BIOCAD/chuvakin/serge/science_search/public_mm/bin/wsdserverctl start')
         time.sleep(30)
     def stopMM(self):
+        '''Stop server MetaMap to avoid overloading'''
         os.system('/home/BIOCAD/chuvakin/serge/science_search/public_mm/bin/skrmedpostctl stop')
         os.system('/home/BIOCAD/chuvakin/serge/science_search/public_mm/bin/wsdserverctl stop')
     def semrep(self, inputT=None, output=None):
+        '''Run Semrep itself. Here You can tune parameters'''
         if inputT == None:
             inputT = self.path 
         if output == None:
             output = self.output
         os.system('/home/BIOCAD/chuvakin/serge/science_search/public_semrep/bin/semrep.v1.8 -X -L 2018 -M -l -g -E "{x}" "{y}"'.format(x=inputT, y=output)) 
-    def check(self): 
+    def check(self):
+        '''Check all pathes'''
         os.system('ln -svf /usr/local/chuvakin/pcre-8.42/lib/libpcre.so.1 libpcre.so.1')
-    def run(self): 
+    def run(self):
+        '''Prepare file and check pathes'''
         self.check()
         #self.startMM()
         self.path = self.aux(self.path)
     def pdf(self): 
+        '''pdf to txt'''
         with open(self.file+'.txt', 'w') as f: 
             f.write(textract.process(self.path).decode('utf-8'))
         self.path = self.file+'.txt'
     def findRelations(self):
+        '''Method returns 2 pandas DataFrame.
+        First - entities with relations
+        Second - all entities in text'''
         self.run()
         self.semrep()
         with open(self.output, 'r') as f:
@@ -85,10 +95,11 @@ class SemanticRepresentation:
         return Predications, Entities
         
     def aux(self,name):
-        '''rename path - remove white spaces'''
+        '''rename path - remove white spaces and parentheses'''
         os.rename(name, self.newname)
         return self.newname
     def stop(self):
+        '''clean enviroment'''
         os.remove(self.output)
         os.remove(self.newname)
         #self.stopMM
