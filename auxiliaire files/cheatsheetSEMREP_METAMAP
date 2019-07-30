@@ -1,0 +1,52 @@
+###########METAMAP############
+which java
+
+To set the environment variable JAVA_HOME, use the information from the which command. For example, if the command: which java returns /usr/local/jre1.8/bin/java, then JAVA_HOME should be set to /usr/local/jre1.8/. 
+
+export JAVA_HOME=/usr/local/jre1.8
+
+export PATH=<parent dir>/public_mm/bin:$PATH
+
+./bin/install.sh
+$$
+./bin/skrmedpostctl start
+
+./bin/wsdserverctl start
+$$
+cd
+
+./bin/wsdserverctl stop
+$$
+#test
+echo "lung cancer" | ./bin/metamap -I
+
+###########SEMREP############ls
+
+
+which java 
+
+export JAVA_HOME=/usr/local/jre1.8.0 
+export PATH=$PATH: < public_semrep's parent dir > /public_semrep/bin 
+
+_______NOTE:_______ 
+Users that are only interested in using a single UMLS dataset (2006 or 2018) can save on space requirements by removing the related files in public_semrep/DATA/DB and public_semrep/DATA/LEXICON and changing the line in install.sh
+AVAILABLE_DATA="2006 2018" to AVAILABLE_DATA="2018" (To use the 2018 UMLS datasets ONLY). 
+__________________
+
+./bin/install.sh 
+
+./bin/semrep.v1.8 
+
+just 2018 dataset
+
+./bin/semrep.v1.8 -L 2018 -Z 2018AA 
+
+./runTest_v1.8.sh 
+
+###usage
+
+semrep.v1.8 [Options] InputFile OutputFile 
+
+
+###########problems##################
+ln -svf /usr/local/chuvakin/pcre-8.42/lib/libpcre.so.1 libpcre.so.1
